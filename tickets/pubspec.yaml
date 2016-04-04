@@ -1,0 +1,13 @@
+name: tickets
+version: 0.0.1
+description: A ticket commerce application
+author: Tuan Nguyen - mtuan93@gmail.com
+environment:
+  sdk: '>=1.0.0 <2.0.0'
+dependencies:
+  json_object: '1.0.19'
+  mongo_dart: '0.1.46'
+  connection_pool: '0.1.0+2'
+  dartson: '0.2.4'
+transformers:
+- dartson
